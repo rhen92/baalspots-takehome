@@ -5,6 +5,7 @@
 }
 
 .title {
+  font-family: "Cormorant Garamond", serif;
   padding-left: 9.32px;
 }
 
@@ -21,4 +22,42 @@
   border: none;
   width: 103px;
   height: 44px;
+}
+
+.main-image {
+  position: absolute;
+  left: 804px;
+  width: 636px;
+  height: 918px;
+  top: 0px;
+}
+
+.pinwheels {
+  position: absolute;
+  top: 191px;
+  left: 12.49%;
+  right:83.92%;
+  bottom: 87.61%;
+}
+
+.span-styling {
+  position: absolute;
+  left: 8.47%;
+  right: 52.85%;
+  top: 248px;
+  bottom: 77.98%;
+}
+
+.normal-font {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 70.86px;
+}
+
+.bold-font {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70.86px;
 }
