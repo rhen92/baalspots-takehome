@@ -9,7 +9,16 @@
   padding-left: 9.32px;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
+.stars {
+  display: none;
+}
+
 .nav-elements {
+  display: block;
   left: 22.22%;
   right: 46.25%;
   top: 2.6%;
@@ -119,4 +128,86 @@
   position: absolute;
   left: 134px;
   top: 754px;
+}
+
+.credit-card {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .title-styling {
+    padding-left: 35px;
+    font-size: 25px;
+  }
+
+  .cardo-stars {
+    width: 45px;
+  }
+
+  .nav-elements {
+    display: none;
+  }
+
+  .main-image {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    left: 800px;
+    width: 30px
+  }
+
+  .pinwheels {
+    left: 43px;
+    width: 100px;
+  }
+
+  .stars {
+    display: block;
+    position: absolute;
+    left: 700px;
+    top: 123px;
+  }
+
+  .span-styling {
+    width: 340px;
+    height: 284px;
+    left: 100px;
+    font-size: 50px;
+  }
+
+  .arrow {
+    top: 550px;
+    left: 100px;
+  }
+
+  .paragraph-styling {
+    top: 588px;
+    width: 319px;
+    height: 88px;
+    left: 100px;
+    font-size: 20px;
+  }
+
+  .order-button {
+    top: 750px
+  }
+
+  .works-button {
+    top: 750px;
+  }
+
+  .status-bar {
+    top: 820px;
+    left: 100px;
+  }
+
+  .credit-card {
+    display: block;
+    position: absolute;
+    top: 920px;
+    left: 100px;
+  }
 }

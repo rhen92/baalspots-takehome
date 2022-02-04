@@ -16,3 +16,14 @@
   font-weight: 500;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px) {
+  .section-styling {
+    top: 1148px;
+    height: 1804px;
+  }
+
+  .experience-title {
+    width: 534px
+  }
+}

@@ -30,13 +30,13 @@ const Features = () => {
 
   return (
     <section className="section-styling">
-      <h2 className="experience-title">Experience the Cardo</h2>
+      <h2 className="experience-title">Experience The Cardo</h2>
       <GridColumn width={10} m={'xxl'} align={'center'}>
         <GridRow align="center" justify="between">
         {featureCards.filter((card, index) => index < 3)}
         </GridRow>
       </GridColumn>
-      <GridColumn width={10} m={'xxl'} align={'center'}>
+      <GridColumn width={10} m={'xxl'} align={'center'} >
         <GridRow align="center" justify="between">
         {featureCards.filter((card, index) => index > 2)}
         </GridRow>

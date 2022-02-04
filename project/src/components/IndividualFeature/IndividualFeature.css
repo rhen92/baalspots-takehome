@@ -31,3 +31,9 @@
   order: 2;
   flex-grow: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .feature-styling {
+    margin-top: 50px;
+  }
+}
