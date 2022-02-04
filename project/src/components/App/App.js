@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../../assets/arrow.svg";
+import arrow from "../../assets/Arrow.svg";
 import bar from "../../assets/active-bar.jpg";
 import hand from "../../assets/hand-card.jpg";
 import pinwheels from "../../assets/pinwheels.svg";
