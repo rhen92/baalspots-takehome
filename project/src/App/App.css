@@ -22,6 +22,7 @@
   border: none;
   width: 103px;
   height: 44px;
+  cursor: pointer;
 }
 
 .main-image {
@@ -95,6 +96,7 @@
   left: 127px;
   top: 614px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .works-button {
@@ -106,6 +108,7 @@
   background: none;
   border: none;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .bracket {
