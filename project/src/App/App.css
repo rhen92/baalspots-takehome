@@ -35,7 +35,7 @@
 .pinwheels {
   position: absolute;
   top: 191px;
-  left: 12.49%;
+  left: 128px;
   right:83.92%;
   bottom: 87.61%;
 }
@@ -60,4 +60,60 @@
   font-size: 65px;
   font-weight: 700;
   line-height: 70.86px;
+}
+
+.arrow {
+  position: absolute;
+  left: 8.54%;
+  right: 89.58%;
+  top: 451px;
+  bottom: 69.36%;
+}
+
+.paragraph-styling {
+  position: absolute;
+  left: 8.82%;
+  right: 63.75%;
+  top: 490px;
+  bottom: 68.61%;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 140%
+}
+
+.order-button {
+  background: #11253E;
+  border-radius: 100px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 139px;
+  height: 33px;
+  left: 127px;
+  top: 614px;
+  font-size: 15px;
+}
+
+.works-button {
+  position: absolute;
+  left: 270px;
+  top: 614px;
+  height: 33px;
+  width: 132.12px;
+  background: none;
+  border: none;
+  font-size: 15px;
+}
+
+.bracket {
+  padding-left: 8px;
+}
+
+.status-bar {
+  position: absolute;
+  left: 134px;
+  top: 754px;
 }

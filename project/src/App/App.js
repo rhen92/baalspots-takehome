@@ -1,7 +1,10 @@
 import React from "react";
-import stars from "../assets/cardo-stars.svg";
+import arrow from "../assets/arrow.svg";
+import bar from "../assets/active-bar.jpg";
 import hand from "../assets/hand-card.jpg";
 import pinwheels from "../assets/pinwheels.svg";
+import stars from "../assets/cardo-stars.svg";
+import vector from "../assets/vector.svg";
 import "./App.css";
 import { getLCP, getFID, getCLS } from "web-vitals";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
@@ -36,6 +39,11 @@ const App = () => {
         <div className="span-styling">
           <span className="normal-font">All the </span><span className="bold-font">experience </span><span className="normal-font">in the new credit card</span>
         </div>
+        <img className="arrow" src={arrow} alt="arrow"/>
+        <p className="paragraph-styling">Simple transfers, payments for utilities, functional statemement, card settings, for which you used to have to go too the brach oonline-banking</p>
+        <button className="order-button">Order a card</button>
+        <button className="works-button">How it works <img className= "bracket" src={vector} alt="angle bracket" /></button>
+        <img className="status-bar" src={bar} alt="stats on users" />
     </main>
     </>
   );
