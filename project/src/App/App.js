@@ -6,8 +6,8 @@ import pinwheels from "../assets/pinwheels.svg";
 import stars from "../assets/cardo-stars.svg";
 import vector from "../assets/vector.svg";
 import "./App.css";
+import Features from "../Features/Features";
 import { getLCP, getFID, getCLS } from "web-vitals";
-import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
 
 if (typeof window !== "undefined") {
   getCLS(console.log);
@@ -44,6 +44,7 @@ const App = () => {
         <button className="order-button">Order a card</button>
         <button className="works-button">How it works <img className= "bracket" src={vector} alt="angle bracket" /></button>
         <img className="status-bar" src={bar} alt="stats on users" />
+        <Features />
     </main>
     </>
   );
