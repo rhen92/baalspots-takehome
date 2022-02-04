@@ -1,10 +1,10 @@
 import React from "react";
-import arrow from "../assets/arrow.svg";
-import bar from "../assets/active-bar.jpg";
-import hand from "../assets/hand-card.jpg";
-import pinwheels from "../assets/pinwheels.svg";
-import stars from "../assets/cardo-stars.svg";
-import vector from "../assets/vector.svg";
+import arrow from "../../assets/arrow.svg";
+import bar from "../../assets/active-bar.jpg";
+import hand from "../../assets/hand-card.jpg";
+import pinwheels from "../../assets/pinwheels.svg";
+import stars from "../../assets/cardo-stars.svg";
+import vector from "../../assets/vector.svg";
 import "./App.css";
 import Features from "../Features/Features";
 import { getLCP, getFID, getCLS } from "web-vitals";

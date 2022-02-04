@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Features.css";
-import { getFeatures } from "../api-calls";
+import { getFeatures } from "../../api-calls";
 import IndividualFeature from "../IndividualFeature/IndividualFeature";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
 
