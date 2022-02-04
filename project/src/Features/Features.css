@@ -1,0 +1,18 @@
+.section-styling {
+  position: absolute;
+  width: 1440px;
+  height: 953px;
+  left: 0px;
+  top: 918px;
+  background: #1D1D1C;
+}
+
+.experience-title {
+  margin-left: 95px;
+  width: 1216px;
+  height: 71px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 65px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
