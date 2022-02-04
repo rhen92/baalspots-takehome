@@ -26,6 +26,6 @@ A React project built using a provided Figma design.
 4. Open Figma file [here](https://www.figma.com/file/gfE3cQUMM2XeZsRQwOFMIX/Landing-page?node-id=0%3A139).
 5. The API url used in project is `https://mocki.io/v1/b9c63035-97c5-40a0-b45c-2abdf5261bdf`.
 
-##Assignment 
+## Assignment 
 
 ![Home Page](https://media.giphy.com/media/BVTpOHchwMtV8P9biz/giphy.gif) 
